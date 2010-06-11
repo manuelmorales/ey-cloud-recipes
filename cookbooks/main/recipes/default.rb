@@ -56,3 +56,7 @@
 
 #uncomment to include the eybackup_verbose recipe
 #require_recipe "eybackup_verbose"
+
+# will set ContentType to application/octet-stream to pdfs to force its
+# download
+require_recipe "force_pdf_download"
